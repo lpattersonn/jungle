@@ -15,9 +15,9 @@
         </tr>
       </thead>
       <tbody>
-        <% enhanced_cart.each do |item| %>
-          <%= render 'item', product: item[:product], quantity: item[:quantity].to_i %>
-        <% end %>
+      <% enhanced_cart.each do |item| %>
+        <%= render 'item', product: item[:product], quantity: item[:quantity].to_i %>
+      <% end %>
       </tbody>
       <tfoot>
         <tr>
